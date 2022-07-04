@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Examen Html y css 2</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="styles.css">
+
+<!-- Google Font-->
+
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+
+<!-- Font Awesome-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body> 
+
+  <nav class="menu">
+<label class="logo"><em>Satisfecho Catering</em></label>
+<ul class="menu-items">
+  <li class="active"><a href="#nosotros">Nosotros</a></li>
+  <li><a href="#menu">Menú</a></li>
+  <li><a href="#galeria">Galería</a></li>
+  <li><a href="#contacto">Contacto</a></li>
+</ul>  
+  <span class="btn-menu">
+    <i class="fa-solid fa-bars"></i> 
+  </span>
+</nav>
+
+
+  <section class="section main-banner" id="top" >
+    <video autoplay muted loop id="pizza-video">
+        <source src="imagenes/imagenes/Pizza2.mp4" type="video/mp4" />
+    </video>
+    <div class="video-overlay header-text">
+        <div class="caption">
+            <h2><em>Satisfecho Catering</em></h2>
+            <h6>Panza llena, Corazón contento</h6>
+            <div class="main-button">
+                <button><a href="#contacto">Contacto</a></button>
+            </div>
+        </div>
+    </div> 
+</section>
+
+    <div class="nosotros" id="nosotros">
+        <h1 ><em>Nosotros</em></h1>
+            <div class="row-img">
+                <div class="column-img">
+                  <img src="imagenes/imagenes/pope.jpg" class="img-pope">
+                </div>
+            </div>  
+            <div class="row-info">
+                <div class="column-info">
+                  <p><i class="fa-solid fa-circle-check"></i>  Contámos con más de 5 años al servicio, con excelentes profesionales de la gastronomía para poder brindarles una experiencia única y totalmente satisfactoria.</p>
+                  <p><i class="fa-solid fa-circle-check"></i>  Nuestro enfoque se basa en el gusto y la necesidad de cada cliente, por eso contamos con horno a piedra que lo podemos trasladar a cualquier salón de fiestas o incluso una casa.</p>
+                  <p><i class="fa-solid fa-circle-check"></i>  Realizamos servicios desde los 30 comenzales hasta más de 150, con diferentes tipos de manú y combinaciones.</p>
+                  <p><i class="fa-solid fa-circle-check"></i>  Siempre trabajamos con materia prima de excelente calidad y contámos con una gran variedad de gustos y metodos para poder conformar a cada uno de los comenzales.</p>
+                  <p><i class="fa-solid fa-circle-check"></i>  También les brindamos el servicio de mozos totalmente incluido, para que cada cliente pueda disfrutar totalmente del evento si necesidad de preocuparse del órden.</p>
+                </div>
+            </div>
+    </div>
+
+    
+
+  <div class="container-menu1">
+    <div class="titulo-menu">
+      <h2><i>Menú y combos</i> </h2>
+    </div>
+    <div class="container-menu" id="menu">
+          <div class="table">
+            <h3 id="pizzas">Pizzas</h3>
+            <img src="iconos/pizza.jpg" >
+            <h4><sup>$</sup> 250 P/persona</h4>
+            <p>Servicio de Pizza</p>
+            <button id="botonSaberMas"><a href="#contacto">Saber más</a></button>
+          </div>
+          <div class="table">
+              <h3 id="bocattas">Boccattas</h3>
+              <img src="iconos/bocatta.jpg">
+              <h4><sup>$</sup> 370 P/persona</h4>
+              <p>Servicio de Pizzas + Boccattas</p>
+            <Button id="botonSaberMas"><a href="#contacto">Saber más</a></Button>
+          </div>
+          <div class="table">
+              <h3 id="hamburguesas">Mini-Hamb</h3>
+              <img src="iconos/hambur.jpg">
+              <h4><sup>$</sup> 320 P/persona</h4>
+              <p>Servicio de Pizzas + Mini-Hamburguesas</p>
+            <Button id="botonSaberMas"><a href="#contacto">Saber más</a></Button>
+          </div>
+          <div class="table">
+              <h3 id="bruschettas">Bruschettas </h3>
+              <img src="iconos/buschetta.jpg">
+              <h4><sup>$</sup> 310 P/persona</h4>
+              <p>Servicio de pizzas + Bruschettas </p>
+            <Button id="botonSaberMas"><a href="#contacto">Saber más</a></Button>
+          </div>
+    </div>
+  </div> 
+
+
+      <section class="container-accordian" id="galeria">
+        <div class="titulo-slider"><h1><i>Galería de imagenes</i></h1></div>
+        <div class="container-slider">
+            <div class="slider" id="slider">
+                  <div class="slider-section">
+                  <img src="Imagenes/imagenes/bruschettas2.jpg" alt="" class="slider-img">
+                  </div>
+                  <div class="slider-section">
+                    <img src="Imagenes/imagenes/pizza3.jpg" alt="" class="slider-img">
+                  </div>
+                  <div class="slider-section">
+                    <img src="Imagenes/imagenes/hamburguesa.jpg" alt="" class="slider-img">
+                  </div>
+                  <div class="slider-section">
+                    <img src="Imagenes/imagenes/bruschettas3.jpg" alt="" class="slider-img">
+                  </div>
+                  <div class="slider-section">
+                    <img src="Imagenes/imagenes/pizza4.jpg" alt="" class="slider-img">
+                  </div>
+                  <div class="slider-section">
+                    <img src="Imagenes/imagenes/hamburguesa2.jpg" alt="" class="slider-img"> 
+                  </div>
+                  <div class="slider-section">
+                    <img src="Imagenes/imagenes/bruschettas4.jpg" alt="" class="slider-img">
+                  </div>
+                  <div class="slider-section">
+                    <img src="Imagenes/imagenes/pizza5.jpg" alt="" class="slider-img"> 
+                  </div>
+                <div class="slider-btn slider-btn-right" id="btn-right">&#62</div>
+                <div class="slider-btn slider-btn-left" id="btn-left">&#60</div>
+            </div>
+        </div>
+      </section>
+
+      <section class="fondo-contacto" id="contacto">
+        <h1 class="logo-contacto">Contacto</h1>
+        <div class="container-contacto">
+         <div class="contacto">
+              <div class="contacto-mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3272.805640179768!2d-56.166925682556155!3d-34.8862266!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x959f805a217457dd%3A0xf42b388feda2247b!2sFrancisco%20Vidiella%202388%2C%2011600%20Montevideo%2C%20Departamento%20de%20Montevideo!5e0!3m2!1ses!2suy!4v1656525451509!5m2!1ses!2suy" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              </div>
+              <div class="contacto-form">
+                <h3>Contactanos</h3>
+                <form action="">
+                <p>
+                  <label>Nombre completo</label>
+                  <input type="text" name="nombreCompleto" placeholder="Nombre completo..">
+                </p>
+                <p>
+                  <label>Email</label>
+                  <input type="text" name="email" placeholder="Email..">
+                </p>
+                <p>
+                  <label>Teléfono</label>
+                  <input type="tel" name="telefono" placeholder="Número de teléfono.."> 
+                </p>
+                <p>
+                  <label>Asunto</label>
+                  <input type="text" name="asunto" placeholder="Asunto..">
+                </p>
+                <p class="block">
+                  <label>Mensaje</label>
+                  <textarea name="mensaje" id="" cols="30" rows="3" placeholder="Escriba su mensaje.."></textarea>
+                </p>
+                <button type="submit" class="block">Enviar</button>
+                </form>
+              </div>
+              <div class="contacto-info">
+                <h3>Más información</h3>
+                <ul>
+                  <li><i class="fa-solid fa-phone"></i>  +598 91 913 683</li>
+                  <li><i class="fa-solid fa-envelope"></i>  contacto@satisfecho.com</li>
+                  <li><i class="fa-solid fa-location-dot"></i>  Francisco Vidiella 2388B ap1</li>
+                </ul>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit amet itaque eius, sequi maxime mollitia omnis possimus quos incidunt, laudantium quia deleniti. Quam cum error eveniet incidunt odio nostrum nulla?</p>
+              </div>
+          </div>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="grupo-1">
+          <div class="box">
+            <h2 class="titulo-box1">SOBRE NOSOTROS</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit, consequatur.</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum, non.</p>
+          </div>
+          <div class="box">
+            <div class="figure">
+              <ul class="Info-footer">
+                <li><i class="fa-solid fa-phone iconos"></i>  +598 91 913 683</li>
+                <br>
+                <li><i class="fa-solid fa-envelope iconos"></i>contacto@satisfecho.com</li>
+                <br>
+                <li><i class="fa-solid fa-location-dot iconos"></i>  Francisco Vidiella 2388B ap1</li>
+              </ul>
+            </div>
+          </div>
+          <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+              <a href="https://www.facebook.com/satisfecho.uy.58" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://www.instagram.com/satisfechocatering/" target="_blank"><i class="fa-brands fa-instagram"></i></i></a>
+              <a href="https://web.whatsapp.com/" target="_blank"><i class="fa-brands fa-whatsapp"></i></i></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="grupo-2">
+          <small>&copy; 2022 <b>Slee Dw</b> - Todos los Derechos Reservados</small>
+        </div>
+
+      </footer>
+    
+    <script src="app.js"></script>
+
+</body>
+</html>
+
